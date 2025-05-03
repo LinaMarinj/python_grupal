@@ -3,13 +3,12 @@ import base64
 
 # Configuración de la página
 st.set_page_config(
-    page_title="Nuevas Tecnologías de Programación",
-    page_icon="💻",
-    layout="wide"
+    page_title="Nuevas Tecnologías de Programación", page_icon="💻", layout="wide"
 )
 
 # Aplicar estilos personalizados
-st.markdown("""
+st.markdown(
+    """
 <style>
     .main-header {
         font-size: 2.5rem;
@@ -46,25 +45,41 @@ st.markdown("""
         font-weight: bold;
     }
 </style>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
+
 
 # Función para cargar y mostrar el logo SVG
 def get_svg_logo():
     with open("assets/logo-Cesde-2023.svg", "r") as file:
         svg_content = file.read()
     # Ajustar el tamaño del SVG
-    svg_content = svg_content.replace('viewBox="0 0 264 53"', 'viewBox="0 0 264 53" width="300"')
+    svg_content = svg_content.replace(
+        'viewBox="0 0 264 53"', 'viewBox="0 0 264 53" width="300"'
+    )
     return svg_content
 
+
 # Mostrar el logo de CESDE
-st.markdown(f"<div style='text-align: center; margin-bottom: 20px;'>{get_svg_logo()}</div>", unsafe_allow_html=True)
+st.markdown(
+    f"<div style='text-align: center; margin-bottom: 20px;'>{get_svg_logo()}</div>",
+    unsafe_allow_html=True,
+)
 
 # Encabezados
-st.markdown('<h1 class="main-header">Nuevas Tecnologías de Programación</h1>', unsafe_allow_html=True)
-st.markdown('<h2 class="sub-header">Programa de Desarrollo de Software</h2>', unsafe_allow_html=True)
+st.markdown(
+    '<h1 class="main-header">Nuevas Tecnologías de Programación</h1>',
+    unsafe_allow_html=True,
+)
+st.markdown(
+    '<h2 class="sub-header">Programa de Desarrollo de Software</h2>',
+    unsafe_allow_html=True,
+)
 
 # Agregar estilos adicionales para la sección del estudiante
-st.markdown('''
+st.markdown(
+    """
 <style>
     .student-container {
         display: flex;
@@ -116,28 +131,54 @@ st.markdown('''
         border-left: 1px solid #eee;
     }
 </style>
-''', unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
 
 # Sección de información del estudiante con diseño de dos columnas
 col1, col2 = st.columns([1, 2])
 
-# Columna izquierda: Foto del estudiante
-with col1:
-    st.image("assets/foto.jpg", width=200, caption="Estudiante", output_format="JPEG")
 
-# Columna derecha: Información del estudiante
+with col1:
+    st.image("assets/foto.webp", width=200, output_format="webp")
+
+# Columna derecha: Información de los estudiantes
 with col2:
-    st.markdown('<h3 style="color: #0066cc; margin-top: 0px;">Juan Pérez González</h3>', unsafe_allow_html=True)
-    st.markdown('<p style="margin-top: 10px;">Programa: <span style="color: #0066cc; font-weight: bold;">Desarrollo de Software</span></p>', unsafe_allow_html=True)
-    st.markdown('<p>Semestre: <span style="color: #0066cc; font-weight: bold;">2025-1</span></p>', unsafe_allow_html=True)
-    st.markdown('<p>Repositorio: <a href="https://github.com/username/proyecto-ntp" target="_blank" style="color: #0066cc; font-weight: bold; text-decoration: none;">GitHub</a></p>', unsafe_allow_html=True)
-   
+    st.markdown(
+        '<h3 style="color: #0066cc; margin-top: 0px;">Análisis - Defunciones ocurridas en en el Hospital General de Medellín 2022-2023</h3>',
+        unsafe_allow_html=True,
+    )
+
+    st.markdown(
+        """
+    <h3>👥 Participantes:</h3>
+    <ul>
+        <li>👩‍💻 <strong>Lina Marcela Marín Jiménez</strong></li>
+        <li>👨‍💻 <strong>Juan Jose Lopez Gomez</strong></li>
+        <li>👨‍💻 <strong>Jonathan Zapata Londoño</strong></li>
+        <li>👨‍💻 <strong>Michael Steven Galvis Buritica</strong></li>
+    </ul>
+    """,
+        unsafe_allow_html=True,
+    )
+
+    st.markdown(
+        '<p>Semestre: <span style="color: #0066cc; font-weight: bold;">2025-1</span></p>',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<p>Repositorio: <a href="https://github.com/LinaMarinj/python_grupal" target="_blank" style="color: #0066cc; font-weight: bold; text-decoration: none;">GitHub</a></p>',
+        unsafe_allow_html=True,
+    )
 
 
 # Pie de página
 st.markdown("---")
-st.markdown("""
+st.markdown(
+    """
 <div style="text-align: center; color: #666; font-size: 0.8rem;">
     © 2025 CESDE      
 </div>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
