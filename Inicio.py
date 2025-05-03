@@ -140,7 +140,7 @@ col1, col2 = st.columns([1, 2])
 
 
 with col1:
-    st.image("assets/foto.webp", width=200, output_format="webp")
+    st.image("assets/foto.jpg", width=200, output_format="JPG")
 
 # Columna derecha: Información de los estudiantes
 with col2:
