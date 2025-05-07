@@ -21,7 +21,7 @@ import streamlit as st
 st.markdown('<h3 style="color: #0066cc;">Solución</h3>', unsafe_allow_html=True)
 
 df = pd.read_csv(
-    "Defunciones_ocurridas_en__en_el_Hospital_General_de_Medell_n_20250502.csv"
+    "python_grupal/pages/static/dataset/Defunciones_ocurridas_en__en_el_Hospital_General_de_Medell_n_20250502.csv"
 )
 
 
