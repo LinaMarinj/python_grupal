@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(page_icon="📌", layout="wide")
 
 
-st.header("🏥Defunciones ocurridas en en el Hospital General de Medellín")
+st.header("🏥Defunciones ocurridas en el Hospital General de Medellín")
 
 st.subheader("Descripción de la actividad")
 st.markdown(
