@@ -17,6 +17,3 @@ if nombre:
         + " esperamos que disfrutes explorando nuestros filtros 🎉"
     )
 
-df = pd.read_csv(
-    "pages\static\dataset\Defunciones_ocurridas_en__en_el_Hospital_General_de_Medell_n_20250502.csv"
-)
