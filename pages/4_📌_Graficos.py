@@ -11,9 +11,9 @@ st.title("Gráficos")
 
 
 data = pd.DataFrame({
-    'Categoría': ['A', 'B', 'C', 'D', 'E'],  
+    'Categoría': ['Edad', 'Genero', 'Municipio', 'estado civil', 'causa directa'],  
     'Valor': [10, 24, 36, 28, 15],
-    'Grupo': ['Edad', 'Genero', 'Municipio', 'estado civil', 'causa'] 
+    'Grupo': ['Edad', 'Genero', 'Municipio', 'estado civil', 'causa directa'] 
 })
 
 #t.subheader("python_grupal/pages/static/dataset/Defunciones_ocurridas_en__en_el_Hospital_General_de_Medell_n_20250502.csv")
