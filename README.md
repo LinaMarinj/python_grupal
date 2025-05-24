@@ -70,7 +70,7 @@ Este análisis puede ser útil para investigadores y profesionales de la salud p
    ```
    pip install -r requirements.txt
    ```
-
+pio 
 ## Uso
 
 Para ejecutar la aplicación:
