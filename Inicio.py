@@ -145,7 +145,7 @@ with col1:
 # Columna derecha: Información de los estudiantes
 with col2:
     st.markdown(
-        '<h3 style="color: #0066cc; margin-top: 0px;">Análisis - Defunciones ocurridas en en el Hospital General de Medellín 2022-2023</h3>',
+        '<h3 style="color: #0066cc; margin-top: 0px;">Proyecto con Streamlit y Python</h3>',
         unsafe_allow_html=True,
     )
 

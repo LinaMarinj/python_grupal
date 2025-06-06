@@ -4,7 +4,7 @@ import pandas as pd
 # Configuración de la página
 st.set_page_config(page_icon="📌", layout="wide")
 
-st.title("Analisis exploratorio")
+st.title("Filtros interactivos")
 
 csv_path = 'pages/static/dataset/Defunciones_ocurridas_en__en_el_Hospital_General_de_Medell_n_20250502.csv'
 df = pd.read_csv(csv_path)
@@ -78,7 +78,7 @@ def aplicar_filtros(df):
     return df_filtrado
 
 # Interfaz principal
-st.title("Análisis de Defunciones Hospitalarias")
+st.subheader("Análisis de Defunciones - Hospital General de Medellín 2022-2023")
 
 # Aplicar filtros
 df_filtrado = aplicar_filtros(df)
