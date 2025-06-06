@@ -10,7 +10,7 @@ def login():
         payload = json.dumps({"email": "mariagomez@gmail.com", "password": "maria123"})
         headers = {"Content-Type": "application/json", "Accept": "*/*"}
         response = requests.request("POST", url, headers=headers, data=payload)
-        response.raise_for_status()
+        response.raise_for_status() 
         data = response.json()
         return data.get("accessToken")
     except requests.exceptions.HTTPError as http_err:
@@ -42,7 +42,7 @@ def obtener_datos_api():
         response.raise_for_status()
         data = response.json()
 
-        # Eliminar el campo 'password' de cada usuario
+        # Eliminar el campo 'password' de cada usuario condicional
         for item in data:
             if "user" in item:
                 del item["user"]
@@ -54,7 +54,9 @@ def obtener_datos_api():
                 vehicle = item.pop("vehicle")
                 # Eliminar los id de vehicle y subdiccionarios
                 vehicle.pop("id", None)
-                if "typeVehicle" in vehicle and isinstance(vehicle["typeVehicle"], dict):
+                if "typeVehicle" in vehicle and isinstance(
+                    vehicle["typeVehicle"], dict
+                ):
                     vehicle["typeVehicle"] = vehicle["typeVehicle"].get("name", "")
                 if "brand" in vehicle and isinstance(vehicle["brand"], dict):
                     vehicle["brand"] = vehicle["brand"].get("name", "")
@@ -76,8 +78,10 @@ def obtener_datos_api():
         print(f"Error al procesar JSON: {json_err}")
     return None
 
+
 st.title("Consumo de API y visualizaciones")
 st.subheader("API Registro de visitas Autolavado Quick Wash")
+
 
 def guardar_csv(df, ruta_csv):
     """
@@ -95,3 +99,5 @@ df = obtener_datos_api()
 if df is not None:
     st.write(df)
     guardar_csv(df, ruta_csv)
+
+    
