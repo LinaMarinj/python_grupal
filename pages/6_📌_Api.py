@@ -101,15 +101,10 @@ if df is not None:
     columnas = df.columns.tolist()
 
     
-    if "date" in columnas:
-        fechas = pd.to_datetime(df["date"], errors="coerce")
-        fecha_min = fechas.min()
-        fecha_max = fechas.max()
-        fecha_inicio, fecha_fin = st.date_input(
-            "Rango de fechas",
-            [fecha_min, fecha_max]
-        )
-        df = df[(fechas >= pd.to_datetime(fecha_inicio)) & (fechas <= pd.to_datetime(fecha_fin))]
+    if "plate" in columnas:
+        placas = df["plate"].dropna().unique()
+        placa_sel = st.multiselect("Placa", placas, default=list(placas))
+        df = df[df["plate"].isin(placa_sel)]
 
     
     if "typeVehicle" in columnas:
@@ -131,5 +126,18 @@ if df is not None:
         serv_sel = st.multiselect("Servicios", servicios, default=servicios)
         df = df[df["services"].apply(lambda x: any(s in x for s in serv_sel))]
 
+    
+    
+    if "registerDate" in columnas:
+        fechas = pd.to_datetime(df["registerDate"], errors="coerce")
+        fecha_min = fechas.min()
+        fecha_max = fechas.max()
+        fecha_inicio, fecha_fin = st.date_input(
+            "Rango de fechas de registro",
+            [fecha_min, fecha_max]
+        )
+        df = df[(fechas >= pd.to_datetime(fecha_inicio)) & (fechas <= pd.to_datetime(fecha_fin))]
+
+  
     st.write("### Datos filtrados")
     st.dataframe(df)
