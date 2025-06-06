@@ -1,0 +1,86 @@
+id,services,email,registerDate,plate,typeVehicle,brand,color
+1,"Lavado Básico, Desinfección",juanperez@gmail.com,2025-01-05T09:30:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+2,Lavado Full,mariagomez@gmail.com,2025-01-06T10:15:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+3,"Lavado Básico, Lavado Full",carlosrojas@gmail.com,2025-01-07T11:00:00.000+00:00,GHI-789,Bus,Mazda,Rojo
+4,Encerado,laurasoto@gmail.com,2025-01-08T14:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+5,Lavado Básico,andresdiaz@gmail.com,2025-01-09T15:30:00.000+00:00,MNO-345,Camioneta,Hyundai,Azul
+6,"Lavado Full, Lavado de motor",juanperez@gmail.com,2025-01-11T09:00:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+7,Aspirado,mariagomez@gmail.com,2025-01-12T10:45:00.000+00:00,PQR-678,Van,Toyota,Verde
+8,"Lavado Básico, Desinfección",carlosrojas@gmail.com,2025-01-13T13:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+9,Lavado Full,laurasoto@gmail.com,2025-01-14T16:00:00.000+00:00,GHI-789,Bus,Mazda,Rojo
+10,Pulido,mariagomez@gmail.com,2025-01-16T09:45:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+11,Lavado Básico,andresdiaz@gmail.com,2025-01-17T11:30:00.000+00:00,MNO-345,Camioneta,Hyundai,Azul
+12,"Lavado Full, Aspirado",juanperez@gmail.com,2025-01-18T14:15:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+13,Encerado,carlosrojas@gmail.com,2025-01-19T15:00:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+14,Pulido,carlosrojas@gmail.com,2025-01-21T09:00:00.000+00:00,GHI-789,Bus,Mazda,Rojo
+15,Lavado Básico,laurasoto@gmail.com,2025-01-22T10:30:00.000+00:00,PQR-678,Van,Toyota,Verde
+16,Lavado Full,andresdiaz@gmail.com,2025-01-23T11:45:00.000+00:00,ABC-124,Automóvil,Chevrolet,Gris Plata
+17,"Lavado Básico, Desinfección",juanperez@gmail.com,2025-01-24T14:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+18,"Lavado Full, Lavado de motor",laurasoto@gmail.com,2025-01-26T09:30:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+19,Aspirado,mariagomez@gmail.com,2025-01-27T10:00:00.000+00:00,MNO-345,Camioneta,Hyundai,Azul
+20,Lavado Básico,carlosrojas@gmail.com,2025-01-28T11:00:00.000+00:00,PQR-678,Van,Toyota,Verde
+21,Encerado,andresdiaz@gmail.com,2025-01-30T14:00:00.000+00:00,MNO-345,Camioneta,Hyundai,Azul
+22,Lavado Full,juanperez@gmail.com,2025-01-31T15:00:00.000+00:00,GHI-789,Bus,Mazda,Rojo
+23,"Lavado Básico, Desinfección",mariagomez@gmail.com,2025-02-01T09:00:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+24,Lavado Full,carlosrojas@gmail.com,2025-02-02T10:30:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+25,Lavado Básico,laurasoto@gmail.com,2025-02-03T11:45:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+26,"Lavado Full, Pulido",mariagomez@gmail.com,2025-02-05T14:00:00.000+00:00,PQR-678,Van,Toyota,Verde
+27,Aspirado,andresdiaz@gmail.com,2025-02-06T15:00:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+28,Lavado Básico,juanperez@gmail.com,2025-02-07T09:30:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+29,Lavado Full,mariagomez@gmail.com,2025-02-08T10:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+30,Encerado,carlosrojas@gmail.com,2025-02-09T11:00:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+31,Lavado Básico,laurasoto@gmail.com,2025-02-10T14:00:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+32,"Lavado Full, Lavado de motor",andresdiaz@gmail.com,2025-02-12T15:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+33,Pulido,juanperez@gmail.com,2025-02-13T09:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+34,"Lavado Básico, Desinfección",mariagomez@gmail.com,2025-02-14T10:30:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+35,Lavado Full,carlosrojas@gmail.com,2025-02-15T11:45:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+36,Lavado Básico,laurasoto@gmail.com,2025-02-16T14:00:00.000+00:00,GHI-789,Bus,Mazda,Rojo
+37,Encerado,andresdiaz@gmail.com,2025-02-18T15:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+38,Lavado Full,juanperez@gmail.com,2025-02-19T09:30:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+39,Pulido,mariagomez@gmail.com,2025-02-20T10:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+40,"Lavado Básico, Desinfección",carlosrojas@gmail.com,2025-02-21T11:00:00.000+00:00,MNO-345,Camioneta,Hyundai,Azul
+41,Lavado Full,laurasoto@gmail.com,2025-02-22T14:00:00.000+00:00,PQR-678,Van,Toyota,Verde
+42,Aspirado,andresdiaz@gmail.com,2025-02-24T15:00:00.000+00:00,PQR-678,Van,Toyota,Verde
+43,Lavado Básico,juanperez@gmail.com,2025-02-25T09:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+44,"Lavado Full, Lavado de motor",mariagomez@gmail.com,2025-02-26T10:30:00.000+00:00,PQR-678,Van,Toyota,Verde
+45,Encerado,carlosrojas@gmail.com,2025-02-27T11:45:00.000+00:00,GHI-789,Bus,Mazda,Rojo
+46,Pulido,laurasoto@gmail.com,2025-02-28T14:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+47,Lavado Básico,andresdiaz@gmail.com,2025-03-01T15:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+48,Lavado Full,juanperez@gmail.com,2025-03-03T09:30:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+49,Aspirado,mariagomez@gmail.com,2025-03-04T10:00:00.000+00:00,MNO-345,Camioneta,Hyundai,Azul
+50,"Lavado Básico, Desinfección",carlosrojas@gmail.com,2025-03-05T11:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+51,Lavado Full,laurasoto@gmail.com,2025-03-06T14:00:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+52,Encerado,andresdiaz@gmail.com,2025-03-07T15:00:00.000+00:00,GHI-789,Bus,Mazda,Rojo
+53,Pulido,juanperez@gmail.com,2025-03-08T09:00:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+54,Lavado Básico,mariagomez@gmail.com,2025-03-10T10:30:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+55,Lavado Full,carlosrojas@gmail.com,2025-03-11T11:45:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+56,"Lavado Básico, Desinfección",laurasoto@gmail.com,2025-03-12T14:00:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+57,"Lavado Full, Lavado de motor",andresdiaz@gmail.com,2025-03-13T15:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+58,Aspirado,juanperez@gmail.com,2025-03-14T09:30:00.000+00:00,GHI-789,Bus,Mazda,Rojo
+59,Lavado Básico,mariagomez@gmail.com,2025-03-15T10:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+60,Lavado Full,carlosrojas@gmail.com,2025-03-16T11:00:00.000+00:00,MNO-345,Camioneta,Hyundai,Azul
+61,Encerado,laurasoto@gmail.com,2025-03-17T14:00:00.000+00:00,PQR-678,Van,Toyota,Verde
+62,Pulido,andresdiaz@gmail.com,2025-03-18T15:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+63,Lavado Básico,juanperez@gmail.com,2025-03-19T09:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+64,Lavado Full,mariagomez@gmail.com,2025-03-20T10:30:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+65,"Lavado Básico, Desinfección",carlosrojas@gmail.com,2025-03-21T11:45:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+66,,juanperez@gmail.com,2025-04-01T09:30:00.000+00:00,GHI-789,Bus,Mazda,Rojo
+67,,mariagomez@gmail.com,2025-04-02T10:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+68,,carlosrojas@gmail.com,2025-04-03T11:00:00.000+00:00,MNO-345,Camioneta,Hyundai,Azul
+69,,laurasoto@gmail.com,2025-04-04T14:00:00.000+00:00,PQR-678,Van,Toyota,Verde
+70,,andresdiaz@gmail.com,2025-04-05T15:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+71,,juanperez@gmail.com,2025-04-06T09:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+72,,mariagomez@gmail.com,2025-04-07T10:30:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+73,,carlosrojas@gmail.com,2025-04-08T11:45:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+74,,laurasoto@gmail.com,2025-04-09T14:00:00.000+00:00,PQR-678,Van,Toyota,Verde
+75,,andresdiaz@gmail.com,2025-04-10T15:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+76,,juanperez@gmail.com,2025-05-01T09:30:00.000+00:00,GHI-789,Bus,Mazda,Rojo
+77,,mariagomez@gmail.com,2025-05-02T10:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+78,,carlosrojas@gmail.com,2025-05-03T11:00:00.000+00:00,MNO-345,Camioneta,Hyundai,Azul
+79,,laurasoto@gmail.com,2025-05-04T14:00:00.000+00:00,PQR-678,Van,Toyota,Verde
+80,,andresdiaz@gmail.com,2025-05-05T15:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
+81,,juanperez@gmail.com,2025-05-06T09:00:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+82,,mariagomez@gmail.com,2025-05-07T10:30:00.000+00:00,DEF-456,Camioneta,Renault,Blanco
+83,,carlosrojas@gmail.com,2025-05-08T11:45:00.000+00:00,ABC-123,Automóvil,Chevrolet,Gris
+84,,laurasoto@gmail.com,2025-05-09T14:00:00.000+00:00,PQR-678,Van,Toyota,Verde
+85,,andresdiaz@gmail.com,2025-05-10T15:00:00.000+00:00,JKL-012,Automóvil,Kia,Negro
