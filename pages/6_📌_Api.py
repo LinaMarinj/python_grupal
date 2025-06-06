@@ -95,3 +95,41 @@ df = obtener_datos_api()
 if df is not None:
     st.write(df)
     guardar_csv(df, ruta_csv)
+
+    
+    st.write("### Filtros")
+    columnas = df.columns.tolist()
+
+    
+    if "date" in columnas:
+        fechas = pd.to_datetime(df["date"], errors="coerce")
+        fecha_min = fechas.min()
+        fecha_max = fechas.max()
+        fecha_inicio, fecha_fin = st.date_input(
+            "Rango de fechas",
+            [fecha_min, fecha_max]
+        )
+        df = df[(fechas >= pd.to_datetime(fecha_inicio)) & (fechas <= pd.to_datetime(fecha_fin))]
+
+    
+    if "typeVehicle" in columnas:
+        tipos = df["typeVehicle"].dropna().unique()
+        tipo_sel = st.multiselect("Tipo de vehículo", tipos, default=list(tipos))
+        df = df[df["typeVehicle"].isin(tipo_sel)]
+
+  
+    if "brand" in columnas:
+        marcas = df["brand"].dropna().unique()
+        marca_sel = st.multiselect("Marca", marcas, default=list(marcas))
+        df = df[df["brand"].isin(marca_sel)]
+
+    
+    if "services" in columnas:
+        servicios = set()
+        df["services"].dropna().str.split(", ").apply(servicios.update)
+        servicios = sorted(servicios)
+        serv_sel = st.multiselect("Servicios", servicios, default=servicios)
+        df = df[df["services"].apply(lambda x: any(s in x for s in serv_sel))]
+
+    st.write("### Datos filtrados")
+    st.dataframe(df)
